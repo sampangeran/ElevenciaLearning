@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b0764"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="640" height="360" fill="url(#bg)"/>
+  <rect width="640" height="360" fill="url(#grid)"/>
+  <circle cx="560" cy="40" r="140" fill="#fbbf24" fill-opacity="0.08"/>
+        <g opacity="0.24" stroke="#fbbf24" stroke-width="2.5" fill="none">
+        <line x1="380" y1="260" x2="590" y2="260"/>
+        <line x1="420" y1="80" x2="420" y2="290"/>
+        <path d="M420 250 C455 245, 495 160, 565 105"/>
+        <line x1="450" y1="225" x2="560" y2="145" stroke="#ffffff" stroke-dasharray="6,5"/>
+      </g>
+      <text x="430" y="130" font-family="Georgia, serif" font-size="34" fill="#fbbf24" opacity="0.35">dy/dx = f'(x)</text>
+      <text x="445" y="305" font-family="Rajdhani, sans-serif" font-size="50" font-weight="700" fill="#ffffff" opacity="0.14">nCr • log • sin²θ</text>
+  <!-- Top Badge -->
+  <rect x="34" y="34" width="235" height="32" rx="16" fill="#fbbf24"/>
+  <text x="151" y="55" text-anchor="middle" font-family="Rajdhani, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1.2" fill="#1e1038">CAMBRIDGE IGCSE</text>
+  <!-- Syllabus Pill -->
+  <rect x="34" y="80" width="210" height="28" rx="6" fill="#1e1038" fill-opacity="0.65" stroke="#fbbf24" stroke-opacity="0.5"/>
+  <text x="48" y="99" font-family="Cairo, Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="700" letter-spacing="0.8" fill="#fef3c7">SYLLABUS 0606</text>
+  <!-- Main Title -->
+  <text x="34" y="185" font-family="Rajdhani, Segoe UI, Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Additional Mathematics</text>
+  <text x="34" y="220" font-family="Cairo, Segoe UI, Arial, sans-serif" font-size="16" font-weight="600" fill="#e9d5ff">Functions, Calculus, Vectors & Combinatorics</text>
+  <!-- Bottom Branding Strip -->
+  <line x1="34" y1="296" x2="350" y2="296" stroke="#fbbf24" stroke-opacity="0.5" stroke-width="2"/>
+  <text x="34" y="324" font-family="Rajdhani, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1.5" fill="#fbbf24">ELEVENCIA LEARNING • BY TORCHE EDUCATION</text>
+</svg>

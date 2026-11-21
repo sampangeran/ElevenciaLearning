@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 64" width="320" height="64">
+  <defs>
+    <linearGradient id="crestGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6c2bd9"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <!-- Crest Icon -->
+  <rect x="4" y="8" width="48" height="48" rx="12" fill="url(#crestGrad)" stroke="url(#goldGrad)" stroke-width="2"/>
+  <path d="M16 20 H36 V25 H22 V29.5 H33 V34.5 H22 V39 H37 V44 H16 Z" fill="#ffffff"/>
+  <path d="M40 13 L42 17.5 L46.5 19.5 L42 21.5 L40 26 L38 21.5 L33.5 19.5 L38 17.5 Z" fill="url(#goldGrad)"/>
+  <!-- Brand Typography -->
+  <text x="64" y="33" font-family="Rajdhani, Segoe UI, Arial, sans-serif" font-weight="700" font-size="26" letter-spacing="1.5" fill="#ffffff">ELEVENCIA</text>
+  <text x="188" y="33" font-family="Rajdhani, Segoe UI, Arial, sans-serif" font-weight="700" font-size="26" letter-spacing="1" fill="#fbbf24">LEARNING</text>
+  <text x="65" y="50" font-family="Cairo, Segoe UI, Arial, sans-serif" font-weight="600" font-size="11.5" letter-spacing="2.2" fill="#d8b4fe">PART OF TORCHE EDUCATION</text>
+</svg>

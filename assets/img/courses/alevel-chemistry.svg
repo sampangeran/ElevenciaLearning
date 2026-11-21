@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#230f47"/>
+      <stop offset="100%" stop-color="#6c2bd9"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="640" height="360" fill="url(#bg)"/>
+  <rect width="640" height="360" fill="url(#grid)"/>
+  <circle cx="560" cy="40" r="140" fill="#fbbf24" fill-opacity="0.08"/>
+        <g opacity="0.28" stroke="#fbbf24" stroke-width="2.5" fill="none">
+        <polygon points="505,105 552,132 552,186 505,213 458,186 458,132"/>
+        <polygon points="505,118 540,138 540,180 505,200 470,180 470,138" stroke-dasharray="5,4"/>
+        <line x1="552" y1="132" x2="590" y2="110"/>
+        <line x1="458" y1="186" x2="420" y2="208"/>
+      </g>
+      <text x="405" y="295" font-family="Rajdhani, sans-serif" font-size="34" font-weight="700" fill="#ffffff" opacity="0.16">ΔG = ΔH - TΔS • NMR</text>
+  <!-- Top Badge -->
+  <rect x="34" y="34" width="235" height="32" rx="16" fill="#fbbf24"/>
+  <text x="151" y="55" text-anchor="middle" font-family="Rajdhani, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1.2" fill="#1e1038">CAMBRIDGE AS & A-LEVEL</text>
+  <!-- Syllabus Pill -->
+  <rect x="34" y="80" width="210" height="28" rx="6" fill="#1e1038" fill-opacity="0.65" stroke="#fbbf24" stroke-opacity="0.5"/>
+  <text x="48" y="99" font-family="Cairo, Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="700" letter-spacing="0.8" fill="#fef3c7">SYLLABUS 9701</text>
+  <!-- Main Title -->
+  <text x="34" y="185" font-family="Rajdhani, Segoe UI, Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">AS & A-Level Chemistry</text>
+  <text x="34" y="220" font-family="Cairo, Segoe UI, Arial, sans-serif" font-size="16" font-weight="600" fill="#e9d5ff">Kinetics, Electrochemistry, Synthesis & NMR</text>
+  <!-- Bottom Branding Strip -->
+  <line x1="34" y1="296" x2="350" y2="296" stroke="#fbbf24" stroke-opacity="0.5" stroke-width="2"/>
+  <text x="34" y="324" font-family="Rajdhani, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1.5" fill="#fbbf24">ELEVENCIA LEARNING • BY TORCHE EDUCATION</text>
+</svg>
