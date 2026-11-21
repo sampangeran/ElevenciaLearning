@@ -88,9 +88,11 @@
   <line x1="92" y1="347" x2="116" y2="347" stroke="#555c8a" stroke-width="1.2"/>
   <text x="124" y="351" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="12" font-weight="700" fill="#181b2e">https://elevencia.torche.app/</text>
 
-  <rect x="336" y="335" width="22" height="22" rx="5" fill="#555c8a"/>
-  <text x="347" y="351" text-anchor="middle" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="13" font-weight="800" fill="#ffffff">in</text>
-  <text x="366" y="351" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="12.5" font-weight="800" fill="#3f456b">Elevencia Learning</text>
+  <rect x="332" y="336" width="22" height="22" rx="6" fill="#555c8a"/>
+  <rect x="335" y="339" width="16" height="16" rx="4" fill="none" stroke="#ffffff" stroke-width="1.5"/>
+  <circle cx="343" cy="347" r="3.8" fill="none" stroke="#ffffff" stroke-width="1.5"/>
+  <circle cx="348" cy="342" r="1.1" fill="#ffffff"/>
+  <text x="362" y="351" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="12.5" font-weight="800" fill="#3f456b">@elevencia.learning</text>
 
   <!-- Floating Rating Badge Bottom Left -->
   <rect x="20" y="366" width="188" height="70" rx="16" fill="#ffffff" stroke="#555c8a" stroke-width="2.2"/>

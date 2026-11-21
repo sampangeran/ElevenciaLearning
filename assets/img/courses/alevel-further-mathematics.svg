@@ -57,7 +57,9 @@
   <circle cx="54" cy="312" r="8" fill="#e7e8ff" stroke="#555c8a" stroke-width="1.3"/>
   <line x1="46" y1="312" x2="62" y2="312" stroke="#555c8a" stroke-width="1.1"/>
   <text x="68" y="316" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#181b2e">elevencia.torche.app</text>
-  <rect x="204" y="303" width="18" height="18" rx="4" fill="#555c8a"/>
-  <text x="213" y="316" text-anchor="middle" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="11" font-weight="800" fill="#ffffff">in</text>
-  <text x="229" y="316" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#3f456b">Elevencia Learning</text>
+  <rect x="204" y="303" width="18" height="18" rx="5" fill="#555c8a"/>
+  <rect x="206.5" y="305.5" width="13" height="13" rx="3.2" fill="none" stroke="#ffffff" stroke-width="1.35"/>
+  <circle cx="213" cy="312" r="3.1" fill="none" stroke="#ffffff" stroke-width="1.35"/>
+  <circle cx="217" cy="308" r="0.9" fill="#ffffff"/>
+  <text x="229" y="316" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#3f456b">@elevencia.learning</text>
 </svg>
