@@ -1,29 +1,58 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#2a0e4f"/>
-      <stop offset="100%" stop-color="#6d28d9"/>
+    <linearGradient id="limePanel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#99ce42"/>
+      <stop offset="100%" stop-color="#a8d957"/>
     </linearGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+    <linearGradient id="slateBottom" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#181b2e"/>
+      <stop offset="100%" stop-color="#3f456b"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#e7e8ff" stroke-opacity="0.08" stroke-width="1"/>
     </pattern>
   </defs>
-  <rect width="640" height="360" fill="url(#bg)"/>
-  <rect width="640" height="360" fill="url(#grid)"/>
-  <circle cx="560" cy="40" r="140" fill="#fbbf24" fill-opacity="0.08"/>
-        <circle cx="520" cy="175" r="78" fill="#fbbf24" fill-opacity="0.12" stroke="#fbbf24" stroke-opacity="0.3" stroke-width="2"/>
-      <text x="520" y="205" text-anchor="middle" font-family="Microsoft YaHei, SimHei, sans-serif" font-size="88" font-weight="700" fill="#fbbf24" opacity="0.38">中文</text>
-      <text x="425" y="300" font-family="Rajdhani, sans-serif" font-size="34" font-weight="700" fill="#ffffff" opacity="0.16">HSK • PINYIN • HANZI</text>
-  <!-- Top Badge -->
-  <rect x="34" y="34" width="235" height="32" rx="16" fill="#fbbf24"/>
-  <text x="151" y="55" text-anchor="middle" font-family="Rajdhani, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1.2" fill="#1e1038">GLOBAL LANGUAGE</text>
-  <!-- Syllabus Pill -->
-  <rect x="34" y="80" width="210" height="28" rx="6" fill="#1e1038" fill-opacity="0.65" stroke="#fbbf24" stroke-opacity="0.5"/>
-  <text x="48" y="99" font-family="Cairo, Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="700" letter-spacing="0.8" fill="#fef3c7">IGCSE 0547 / HSK 1-5</text>
+
+  <rect width="640" height="236" fill="url(#limePanel)"/>
+  <rect y="236" width="640" height="124" fill="url(#slateBottom)"/>
+  <rect y="236" width="640" height="124" fill="url(#grid)"/>
+
+  <!-- Signature 4-Point Diamond Star + Double-Line Corner Frame -->
+  <g stroke="#555c8a" stroke-opacity="0.82" stroke-width="1.6" fill="none">
+    <polyline points="602,108 602,216 462,216"/>
+    <polyline points="592,120 592,206 474,206" stroke-opacity="0.5"/>
+  </g>
+  <path d="M602 96 L606 105 L615 108 L606 111 L602 120 L598 111 L589 108 L598 105 Z" fill="#555c8a"/>
+  <path d="M458 207 L461 213 L467 216 L461 219 L458 225 L455 219 L449 216 L455 213 Z" fill="#555c8a"/>
+
+  <!-- Subject Artwork in Bottom Slate-Navy Band -->
+  <circle cx="520" cy="292" r="42" fill="#99ce42" fill-opacity="0.16" stroke="#99ce42" stroke-opacity="0.48" stroke-width="2"/>
+  <text x="520" y="308" text-anchor="middle" font-family="Microsoft YaHei, SimHei, sans-serif" font-size="44" font-weight="700" fill="#99ce42" opacity="0.58">中文</text>
+  <text x="415" y="350" font-family="'Plus Jakarta Sans', sans-serif" font-size="14.5" font-weight="700" fill="#e7e8ff" opacity="0.42">HSK • PINYIN • HANZI</text>
+
+  <!-- Top-Right Flame + Elevencia Watermark -->
+  <g transform="translate(548, 24)">
+    <path d="M18 0 L28 13 L18 30 L8 13 Z" fill="#f6981e"/>
+    <path d="M18 7 L23 13.5 L18 22 L13 13.5 Z" fill="#99ce42"/>
+    <text x="18" y="44" text-anchor="middle" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="11" font-weight="800" fill="#181b2e">Elevencia</text>
+  </g>
+
+  <!-- Top Badge & Syllabus Pill -->
+  <rect x="34" y="30" width="215" height="32" rx="16" fill="#181b2e"/>
+  <text x="141" y="51" text-anchor="middle" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="13" font-weight="800" letter-spacing="1" fill="#99ce42">GLOBAL LANGUAGE</text>
+  <rect x="34" y="76" width="205" height="28" rx="6" fill="#555c8a"/>
+  <text x="48" y="95" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="0.6" fill="#ffffff">IGCSE 0547 / HSK 1-5</text>
+
   <!-- Main Title -->
-  <text x="34" y="185" font-family="Rajdhani, Segoe UI, Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Mandarin Chinese</text>
-  <text x="34" y="220" font-family="Cairo, Segoe UI, Arial, sans-serif" font-size="16" font-weight="600" fill="#e9d5ff">Hanzi, Pinyin, Speaking Fluency & HSK Prep</text>
-  <!-- Bottom Branding Strip -->
-  <line x1="34" y1="296" x2="350" y2="296" stroke="#fbbf24" stroke-opacity="0.5" stroke-width="2"/>
-  <text x="34" y="324" font-family="Rajdhani, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1.5" fill="#fbbf24">ELEVENCIA LEARNING • BY TORCHE EDUCATION</text>
+  <text x="34" y="166" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="38" font-weight="800" fill="#181b2e">Mandarin Chinese</text>
+  <text x="34" y="200" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="15.5" font-weight="700" fill="#252945">Hanzi, Pinyin, Speaking Fluency &amp; HSK Prep</text>
+
+  <!-- Bottom White Rounded Pill -->
+  <rect x="34" y="282" width="336" height="36" rx="18" fill="#ffffff"/>
+  <circle cx="54" cy="300" r="8" fill="#e7e8ff" stroke="#555c8a" stroke-width="1.3"/>
+  <line x1="46" y1="300" x2="62" y2="300" stroke="#555c8a" stroke-width="1.1"/>
+  <text x="68" y="304" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#181b2e">torche.app</text>
+  <rect x="150" y="291" width="18" height="18" rx="4" fill="#555c8a"/>
+  <text x="159" y="304" text-anchor="middle" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="11" font-weight="800" fill="#ffffff">in</text>
+  <text x="175" y="304" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#3f456b">Elevencia Learning</text>
 </svg>

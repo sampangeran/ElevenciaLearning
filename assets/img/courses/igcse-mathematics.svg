@@ -1,33 +1,62 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#2e1065"/>
-      <stop offset="100%" stop-color="#6d28d9"/>
+      <stop offset="0%" stop-color="#3f456b"/>
+      <stop offset="55%" stop-color="#555c8a"/>
+      <stop offset="100%" stop-color="#252945"/>
     </linearGradient>
+    <radialGradient id="limeGlow" cx="15%" cy="90%" r="60%">
+      <stop offset="0%" stop-color="#99ce42" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#99ce42" stop-opacity="0"/>
+    </radialGradient>
     <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#e7e8ff" stroke-opacity="0.06" stroke-width="1"/>
     </pattern>
   </defs>
   <rect width="640" height="360" fill="url(#bg)"/>
+  <rect width="640" height="360" fill="url(#limeGlow)"/>
   <rect width="640" height="360" fill="url(#grid)"/>
-  <circle cx="560" cy="40" r="140" fill="#fbbf24" fill-opacity="0.08"/>
-        <g opacity="0.22" stroke="#fbbf24" stroke-width="2.5" fill="none">
-        <path d="M40 270 Q130 100 220 220 T400 130"/>
-        <polygon points="480,250 560,250 560,150" />
-        <circle cx="510" cy="110" r="34"/>
-      </g>
-      <text x="455" y="135" font-family="Georgia, serif" font-size="38" fill="#fbbf24" opacity="0.32" font-style="italic">x = (-b ± √Δ)/2a</text>
-      <text x="430" y="295" font-family="Rajdhani, sans-serif" font-size="68" font-weight="700" fill="#ffffff" opacity="0.12">∑ π ∫ θ</text>
+
+  <!-- Subject Artwork -->
+  <g opacity="0.24" stroke="#99ce42" stroke-width="2.5" fill="none">
+    <path d="M40 270 Q130 100 220 220 T400 130"/>
+    <polygon points="480,250 560,250 560,150"/>
+    <circle cx="510" cy="110" r="34"/>
+  </g>
+  <text x="435" y="135" font-family="Georgia, serif" font-size="30" fill="#e7e8ff" opacity="0.28" font-style="italic">x = (-b ± √Δ)/2a</text>
+  <text x="415" y="295" font-family="'Plus Jakarta Sans', sans-serif" font-size="52" font-weight="800" fill="#ffffff" opacity="0.12">∑ π ∫ θ</text>
+
+  <!-- Signature 4-Point Diamond Star + Double-Line Corner Frame -->
+  <g stroke="#e7e8ff" stroke-opacity="0.72" stroke-width="1.6" fill="none">
+    <polyline points="602,118 602,262 452,262"/>
+    <polyline points="592,130 592,252 464,252" stroke-opacity="0.45"/>
+  </g>
+  <path d="M602 106 L606 115 L615 118 L606 121 L602 130 L598 121 L589 118 L598 115 Z" fill="#99ce42"/>
+  <path d="M448 253 L451 259 L457 262 L451 265 L448 271 L445 265 L439 262 L445 259 Z" fill="#99ce42"/>
+
+  <!-- Top-Right Flame + Elevencia Watermark -->
+  <g transform="translate(548, 28)">
+    <path d="M18 0 L28 13 L18 30 L8 13 Z" fill="#f6981e"/>
+    <path d="M18 7 L23 13.5 L18 22 L13 13.5 Z" fill="#3f456b"/>
+    <text x="18" y="44" text-anchor="middle" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="11" font-weight="700" fill="#ffffff">Elevencia</text>
+  </g>
+
   <!-- Top Badge -->
-  <rect x="34" y="34" width="235" height="32" rx="16" fill="#fbbf24"/>
-  <text x="151" y="55" text-anchor="middle" font-family="Rajdhani, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1.2" fill="#1e1038">CAMBRIDGE IGCSE</text>
+  <rect x="34" y="34" width="215" height="32" rx="16" fill="#99ce42"/>
+  <text x="141" y="55" text-anchor="middle" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="13" font-weight="800" letter-spacing="1" fill="#181b2e">CAMBRIDGE IGCSE</text>
   <!-- Syllabus Pill -->
-  <rect x="34" y="80" width="210" height="28" rx="6" fill="#1e1038" fill-opacity="0.65" stroke="#fbbf24" stroke-opacity="0.5"/>
-  <text x="48" y="99" font-family="Cairo, Segoe UI, Arial, sans-serif" font-size="12.5" font-weight="700" letter-spacing="0.8" fill="#fef3c7">SYLLABUS 0580 / 0607</text>
+  <rect x="34" y="80" width="205" height="28" rx="6" fill="#181b2e" fill-opacity="0.72" stroke="#99ce42" stroke-opacity="0.6"/>
+  <text x="48" y="99" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="0.6" fill="#e7e8ff">SYLLABUS 0580 / 0607</text>
   <!-- Main Title -->
-  <text x="34" y="185" font-family="Rajdhani, Segoe UI, Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff">Mathematics</text>
-  <text x="34" y="220" font-family="Cairo, Segoe UI, Arial, sans-serif" font-size="16" font-weight="600" fill="#e9d5ff">Core & Extended • Algebra, Geometry & Trig</text>
-  <!-- Bottom Branding Strip -->
-  <line x1="34" y1="296" x2="350" y2="296" stroke="#fbbf24" stroke-opacity="0.5" stroke-width="2"/>
-  <text x="34" y="324" font-family="Rajdhani, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1.5" fill="#fbbf24">ELEVENCIA LEARNING • BY TORCHE EDUCATION</text>
+  <text x="34" y="182" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="38" font-weight="800" fill="#ffffff">Mathematics</text>
+  <text x="34" y="216" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="15.5" font-weight="600" fill="#e7e8ff">Core &amp; Extended • Algebra, Geometry &amp; Trig</text>
+
+  <!-- Bottom White Rounded Pill -->
+  <rect x="34" y="294" width="336" height="36" rx="18" fill="#ffffff"/>
+  <circle cx="54" cy="312" r="8" fill="#e7e8ff" stroke="#555c8a" stroke-width="1.3"/>
+  <line x1="46" y1="312" x2="62" y2="312" stroke="#555c8a" stroke-width="1.1"/>
+  <text x="68" y="316" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#181b2e">torche.app</text>
+  <rect x="150" y="303" width="18" height="18" rx="4" fill="#555c8a"/>
+  <text x="159" y="316" text-anchor="middle" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="11" font-weight="800" fill="#ffffff">in</text>
+  <text x="175" y="316" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="11.5" font-weight="700" fill="#3f456b">Elevencia Learning</text>
 </svg>

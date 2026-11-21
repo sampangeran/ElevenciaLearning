@@ -22,7 +22,7 @@
       "nav.torche": "Torche.app",
       "nav.enroll": "Enroll Now",
 
-      "hero.eyebrow": "Part of Torche Education • High School Academy",
+      "hero.eyebrow": '"Expert Guidance, Global Potential" • Part of Torche Education',
       "hero.title_pre": "Elevate Your High School",
       "hero.title_gold": "Academic Excellence",
       "hero.subtitle":
@@ -93,7 +93,7 @@
       "nav.torche": "Torche.app",
       "nav.enroll": "Daftar Sekarang",
 
-      "hero.eyebrow": "Bagian dari Torche Education • Akademi SMA Internasional",
+      "hero.eyebrow": '"Expert Guidance, Global Potential" • Bagian dari Torche Education',
       "hero.title_pre": "Tingkatkan Prestasi Akademik",
       "hero.title_gold": "Siswa Sekolah Menengah",
       "hero.subtitle":
