@@ -163,8 +163,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header.header-scrolled {
   height: 66px;
-  background: rgba(24, 27, 46, 0.96);
-  backdrop-filter: blur(8px);
+  background: rgba(24, 27, 46, 0.98);
 }
 
 #header .logo {
@@ -363,6 +362,8 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   left: 0;
   bottom: 0;
+  width: 100vw;
+  height: 100vh;
   background: rgba(16, 18, 32, 0.94);
   transition: 0.3s;
   z-index: 999;
